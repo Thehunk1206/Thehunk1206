@@ -29,90 +29,123 @@
 
 ---
 
-## About
+## 👋 About Me
 
-I am an AI Research Engineer with 4+ years of experience across generative AI, computer vision, multimodal learning, and efficient inference. At Fynd, I develop production image and video systems involving Flow Matching, diffusion models, super-resolution, distributed PyTorch training, model distillation, and TensorRT optimization.
+> I build research-driven machine learning systems that move from **model design and distributed training** to **optimized production inference**.
 
-Previously, at Wobot.ai, I built large-scale video analytics systems for detection, multi-object tracking, and cross-camera association. Alongside my industry work, I pursue research in generative modeling and robot learning through publications and open-source projects.
+I am an AI Research Engineer with 4+ years of experience across generative AI, computer vision, multimodal learning, and efficient inference. At Fynd, I develop image and video systems involving Flow Matching, diffusion models, super-resolution, model distillation, distributed PyTorch, and TensorRT.
 
-My current interests sit at the intersection of generative vision and embodied intelligence: learning representations, trajectories, and policies that are accurate, efficient, and deployable.
+Previously, at Wobot.ai, I built large-scale video analytics systems for detection, multi-object tracking, and cross-camera association. My current research connects generative vision with embodied intelligence: learning representations, trajectories, and policies that are accurate, efficient, and deployable.
 
-## Research And Engineering Focus
+<p align="center">
+  <img src="https://img.shields.io/badge/Experience-4%2B_Years-0EA5E9?style=for-the-badge" alt="4+ years of experience" />
+  <img src="https://img.shields.io/badge/Production_AI-20K_DAU-10B981?style=for-the-badge" alt="20K daily active users" />
+  <img src="https://img.shields.io/badge/Video_Analytics-1K%2B_Cameras-F59E0B?style=for-the-badge" alt="1,000+ cameras" />
+  <img src="https://img.shields.io/badge/Robot_Learning-95.5%25_Success-8B5CF6?style=for-the-badge" alt="95.5% robot-learning success rate" />
+</p>
 
-| Generative Vision | Computer Vision | Robot Learning |
-| --- | --- | --- |
-| Flow Matching and diffusion models | Detection, segmentation, and tracking | Vision-Language-Action models |
-| Image and video generation | Image and video restoration | Visuomotor policy learning |
-| Super-resolution and one-step distillation | Multimodal and representation learning | Imitation and reinforcement learning |
-| Controllable generation and PEFT | Production GPU inference | Simulation, evaluation, and Sim2Real |
+## 🔬 Research And Engineering Focus
 
-## Selected Impact
+<table>
+  <tr>
+    <td width="33%" align="center" valign="top">
+      <img src="focus-generative-ai.png" width="100%" alt="Generative AI and Flow Matching research visualization" />
+      <h3>✨ Generative Vision</h3>
+      <sub>Flow Matching · Diffusion · Image and video generation · Super-resolution · One-step distillation</sub>
+    </td>
+    <td width="33%" align="center" valign="top">
+      <img src="focus-computer-vision.png" width="100%" alt="Computer vision production pipeline visualization" />
+      <h3>👁️ Computer Vision</h3>
+      <sub>Detection · Segmentation · Multi-object tracking · Restoration · Production GPU inference</sub>
+    </td>
+    <td width="33%" align="center" valign="top">
+      <img src="focus-robot-learning.png" width="100%" alt="Robot learning and manipulation policy visualization" />
+      <h3>🤖 Robot Learning</h3>
+      <sub>VLA · Visuomotor policies · Imitation learning · Reinforcement learning · Sim2Real</sub>
+    </td>
+  </tr>
+</table>
 
-| Area | Result |
-| --- | --- |
-| Generative super-resolution | Built a 4x Flow Matching system and distilled it into a single-step generator |
-| Efficient inference | Reduced super-resolution latency by approximately 40-45% with TensorRT |
-| High-resolution processing | Processed 2500x2500 inputs in approximately 4-5 seconds on one NVIDIA L4 GPU |
-| Production media AI | Built image and video services supporting approximately 20K daily active users |
-| Video restoration | Improved end-to-end latency by up to 56% and reduced compute cost by up to 52% |
-| Large-scale video analytics | Deployed tracking pipelines across 1,000+ cameras at 250+ locations |
-| Robot learning | Reached a 95.5% StackCube-v1 success rate with a Flow Matching Transformer and ViT policy |
+## 📊 Selected Impact
 
-## Publication
+<table>
+  <tr>
+    <td align="center" width="33%"><h3>🚀 4x</h3><strong>Flow Matching Super-Resolution</strong><br /><sub>Distilled into a single-step generator</sub></td>
+    <td align="center" width="33%"><h3>⚡ 40-45%</h3><strong>Lower Inference Latency</strong><br /><sub>TensorRT-optimized deployment</sub></td>
+    <td align="center" width="33%"><h3>🌐 20K</h3><strong>Daily Active Users</strong><br /><sub>Production image and video services</sub></td>
+  </tr>
+  <tr>
+    <td align="center"><h3>🎬 56%</h3><strong>Lower Video Latency</strong><br /><sub>Up to 52% lower compute cost</sub></td>
+    <td align="center"><h3>📹 1,000+</h3><strong>Camera Deployments</strong><br /><sub>Across more than 250 locations</sub></td>
+    <td align="center"><h3>🤖 95.5%</h3><strong>StackCube-v1 Success</strong><br /><sub>Flow Matching Transformer + ViT policy</sub></td>
+  </tr>
+</table>
 
-### Isokinetic Flow Matching for Pathwise Straightening of Generative Flows
+> **High-resolution inference:** 2500x2500 inputs processed in approximately 4-5 seconds on one NVIDIA L4 GPU.
 
-Accepted at the **ICML 2026 Workshop on Structured Probabilistic Inference and Generative Modeling (SPIGM)**.
+## 📄 Publication
 
-[Read the paper on OpenReview](https://openreview.net/forum?id=HR70n1Pv5A)
+> ### 🧭 Isokinetic Flow Matching for Pathwise Straightening of Generative Flows
+>
+> **Accepted at the ICML 2026 Workshop on Structured Probabilistic Inference and Generative Modeling (SPIGM).**
+>
+> A geometry-aware Flow Matching formulation for straighter generative transport paths and more efficient generation.
 
-The work studies a geometry-aware Flow Matching formulation for straighter generative transport paths and more efficient generation.
+<p align="center">
+  <a href="https://openreview.net/forum?id=HR70n1Pv5A">
+    <img src="https://img.shields.io/badge/Read_the_Paper-OpenReview-B31B1B?style=for-the-badge" alt="Read IsoFM on OpenReview" />
+  </a>
+</p>
 
-## Experience
+## 💼 Experience
 
-| Period | Role | Work |
-| --- | --- | --- |
-| Sep 2023 - Present | **ML Research Engineer, Fynd** | Flow Matching super-resolution, single-step distillation, SDXL and FLUX training, video segmentation and inpainting, controllable generation, distributed PyTorch, and TensorRT deployment |
-| Feb 2022 - Sep 2023 | **Computer Vision Engineer, Wobot.ai** | Production detection and tracking, multi-camera analytics, CPU and GPU pipeline optimization, Docker, and NVIDIA Triton deployment |
+### 🧠 ML Research Engineer · Fynd
 
-## Featured Projects
+`Sep 2023 - Present` · Flow Matching super-resolution, single-step distillation, SDXL and FLUX training, video segmentation and inpainting, controllable generation, distributed PyTorch, and TensorRT deployment.
 
-### [mini-pi0](https://github.com/Thehunk1206/mini-pi0)
+### 👁️ Computer Vision Engineer · Wobot.ai
 
-An open-source multimodal robot-learning framework inspired by pi0-style manipulation policies. It combines ManiSkill, MuJoCo, wrist-camera observations, and custom visuomotor Flow Matching policies for action trajectory prediction and control.
+`Feb 2022 - Sep 2023` · Production detection and tracking, multi-camera analytics, CPU and GPU pipeline optimization, Docker, and NVIDIA Triton deployment.
 
-- 95.5% success rate on ManiSkill StackCube-v1
-- Flow Matching Transformer and ViT policy
-- VLA, imitation-learning, and reinforcement-learning experiments
-- [View updated task benchmarks](https://github.com/Thehunk1206/mini-pi0/blob/main/docs/TASK_BENCHMARK.md)
+## 🚀 Featured Projects
 
-### [Flow-Based Models](https://github.com/Thehunk1206/flow-based-models)
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🤖 <a href="https://github.com/Thehunk1206/mini-pi0">mini-pi0</a></h3>
+      <p>Multimodal robot-learning framework using ManiSkill, MuJoCo, wrist-camera observations, and visuomotor Flow Matching policies.</p>
+      <p><strong>95.5% StackCube-v1 success</strong> · VLA · IL · RL</p>
+      <a href="https://github.com/Thehunk1206/mini-pi0/blob/main/docs/TASK_BENCHMARK.md">View benchmarks →</a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🌊 <a href="https://github.com/Thehunk1206/flow-based-models">Flow-Based Models</a></h3>
+      <p>Conditional Flow Matching experiments for image and video generation with optimal-transport paths and ODE sampling.</p>
+      <p><strong>13+ stars</strong> · PyTorch · Generative Modeling</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🎞️ <a href="https://github.com/Thehunk1206/videogen-mean-flow">VideoGen MeanFlow</a></h3>
+      <p>Complete video-generation training and inference pipeline using MeanFlow with a Diffusion Transformer.</p>
+      <p>Video Generation · DiT · Flow Models</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🌙 <a href="https://github.com/Thehunk1206/Zero-DCE">Zero-DCE</a></h3>
+      <p>TensorFlow implementation of zero-reference low-light image enhancement.</p>
+      <p><strong>49+ stars · 8+ forks</strong></p>
+    </td>
+  </tr>
+</table>
 
-Implementations and experiments for Conditional Flow Matching across image and video generation, including optimal-transport paths, ODE-based sampling, and diffusion-related formulations.
+**More applied ML work:** 🩺 [PraNet Polyp Segmentation](https://github.com/Thehunk1206/PRANet-Polyps-Segmentation) · 🎙️ [TinyML Audio Classification](https://github.com/Thehunk1206/Arduino-Surrounding-Sound-Classifier)
 
-### [VideoGen MeanFlow](https://github.com/Thehunk1206/videogen-mean-flow)
+## 🦾 Current Build
 
-A complete training and inference pipeline for video generation using MeanFlow with a Diffusion Transformer architecture.
+> I am building an **SO-ARM101 from individual components rather than using a pre-assembled system**. The goal is to connect simulation-based policy development with physical data collection, evaluation, and learned-policy deployment. Hardware integration and real-world policy testing are currently in progress.
 
-### [Zero-DCE](https://github.com/Thehunk1206/Zero-DCE)
+## 🧰 Technical Skills
 
-A TensorFlow implementation of zero-reference low-light image enhancement. The repository has earned **49+ stars** and **8+ forks**.
-
-### [PraNet Polyp Segmentation](https://github.com/Thehunk1206/PRANet-Polyps-Segmentation)
-
-A TensorFlow implementation of Parallel Reverse Attention Network for medical-image segmentation, with **24+ stars**.
-
-### [TinyML Audio Classification](https://github.com/Thehunk1206/Arduino-Surrounding-Sound-Classifier)
-
-An INT8-quantized deep audio-classification pipeline for Arduino Nano BLE Sense, designed to operate within a memory budget below 20 KB.
-
-## Current Build
-
-I am building an **SO-ARM101 from individual components rather than using a pre-assembled system**. The goal is to connect simulation-based policy development with physical data collection, evaluation, and learned-policy deployment. Hardware integration and real-world policy testing are currently in progress.
-
-## Technical Skills
-
-### Core Machine Learning
+### 🧠 Core Machine Learning
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
@@ -122,15 +155,15 @@ I am building an **SO-ARM101 from individual components rather than using a pre-
 
 `Representation Learning` `Multimodal Learning` `Distributed Training` `DDP` `FSDP`
 
-### Generative AI
+### ✨ Generative AI
 
 `Diffusion Models` `Flow Matching` `SDXL` `FLUX` `Super-Resolution` `Flow Distillation` `One-Step Generation` `Image Generation` `Video Generation` `IP-Adapters` `Textual Inversion` `LoRA` `PEFT`
 
-### Computer Vision
+### 👁️ Computer Vision
 
 `Object Detection` `Multi-Object Tracking` `Image Segmentation` `Video Segmentation` `Image Restoration` `Video Restoration` `Vision-Language Models` `Controllable Generation`
 
-### Robotics And Robot Learning
+### 🤖 Robotics And Robot Learning
 
 ![MuJoCo](https://img.shields.io/badge/MuJoCo-Robot_Learning-222222?style=flat-square)
 ![NVIDIA Isaac Sim](https://img.shields.io/badge/Isaac_Sim-76B900?style=flat-square&logo=nvidia&logoColor=white)
@@ -138,7 +171,7 @@ I am building an **SO-ARM101 from individual components rather than using a pre-
 
 `Vision-Language-Action Models` `Robotic Manipulation` `Visuomotor Policies` `Imitation Learning` `Reinforcement Learning` `Flow Matching Policies` `ManiSkill` `Robosuite` `Sim2Real`
 
-### Deployment And Infrastructure
+### ⚙️ Deployment And Infrastructure
 
 ![NVIDIA](https://img.shields.io/badge/TensorRT-76B900?style=flat-square&logo=nvidia&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
@@ -148,12 +181,12 @@ I am building an **SO-ARM101 from individual components rather than using a pre-
 
 `NVIDIA Triton Inference Server` `MLflow` `GPU Optimization` `Model Serving` `Data Curation` `Experiment Tracking`
 
-## Education
+## 🎓 Education
 
 **Bachelor of Science in Computer Science**, University of Mumbai, 2022  
 CGPA: **9.21/10**
 
-## Connect
+## 🤝 Connect
 
 I am interested in research and engineering conversations around generative vision, efficient deep learning, multimodal intelligence, and learning-based robotics.
 
