@@ -66,23 +66,6 @@ Previously, at Wobot.ai, I built large-scale video analytics systems for detecti
   </tr>
 </table>
 
-## 📊 Selected Impact
-
-<table>
-  <tr>
-    <td align="center" width="33%"><h3>🚀 4x</h3><strong>Flow Matching Super-Resolution</strong><br /><sub>Distilled into a single-step generator</sub></td>
-    <td align="center" width="33%"><h3>⚡ 40-45%</h3><strong>Lower Inference Latency</strong><br /><sub>TensorRT-optimized deployment</sub></td>
-    <td align="center" width="33%"><h3>🌐 20K</h3><strong>Daily Active Users</strong><br /><sub>Production image and video services</sub></td>
-  </tr>
-  <tr>
-    <td align="center"><h3>🎬 56%</h3><strong>Lower Video Latency</strong><br /><sub>Up to 52% lower compute cost</sub></td>
-    <td align="center"><h3>📹 1,000+</h3><strong>Camera Deployments</strong><br /><sub>Across more than 250 locations</sub></td>
-    <td align="center"><h3>🤖 95.5%</h3><strong>StackCube-v1 Success</strong><br /><sub>Flow Matching Transformer + ViT policy</sub></td>
-  </tr>
-</table>
-
-> **High-resolution inference:** 2500x2500 inputs processed in approximately 4-5 seconds on one NVIDIA L4 GPU.
-
 ## 📄 Publication
 
 > ### 🧭 Isokinetic Flow Matching for Pathwise Straightening of Generative Flows
